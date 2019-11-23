@@ -44,11 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/templates/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="391">
               <caret line="65" column="16" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="65" selection-end-column="16" />
+=======
+            <state relative-caret-position="294">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
               <folding />
             </state>
           </provider>
@@ -96,11 +111,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php artisan serve " />
-      <command text="php artisan serve" />
-      <command text="php artisan route:list" />
-      <command text="git add ." />
-      <command text="git commit" />
       <command text="git status" />
       <command text="php artisasn serve " />
       <command text="git status" />
@@ -110,12 +120,31 @@
       <command text="git push" />
       <command text="git checkout master" />
       <command text="git remote -v" />
+<<<<<<< HEAD
       <command text="php artsian serve" />
       <command text="php artisan serve" />
       <command text="git push master" />
       <command text="git push" />
       <command text="composer require doctrine/dbal" />
       <command text="php artisan serve" />
+=======
+      <command text="git remote set-url origin https://github.com/echivambo/psc-manager.git" />
+      <command text="git push" />
+      <command text="git add .  " />
+      <command text="git commit -m &quot;Primeiro carregamento de dados&quot;" />
+      <command text="git config --global --edit" />
+      <command text="php artisan serve " />
+      <command text="git pull" />
+      <command text="git status" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;Alguns ficheiros que tinham sido ignorados no primeiro carregamento&quot;" />
+      <command text="git status" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;Git ignor&quot;" />
+      <command text="git commit -m &quot;GitIgnor&quot;" />
+      <command text="php artisan serve " />
+      <command text="git pull" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -137,6 +166,7 @@
         <option value="$PROJECT_DIR$/resources/views/templates/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/templates/layout.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -170,7 +200,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +218,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
       <pane id="Scope" />
     </panes>
   </component>
@@ -299,15 +336,24 @@
       <workItem from="1570464278440" duration="1190000" />
       <workItem from="1570479095918" duration="2891000" />
       <workItem from="1571228623868" duration="5375000" />
+<<<<<<< HEAD
       <workItem from="1574416254474" duration="1114000" />
       <workItem from="1574494323025" duration="1780000" />
       <workItem from="1574496453048" duration="87000" />
       <workItem from="1574496665430" duration="1782000" />
+=======
+      <workItem from="1574416254474" duration="1764000" />
+      <workItem from="1574493709271" duration="1569000" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="14219000" />
+=======
+    <option name="totallyTimeSpent" value="12789000" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -515,6 +561,70 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6699">
+          <caret line="319" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/topbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3801">
+          <caret line="181" column="22" lean-forward="false" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="112" column="23" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../startbootstrap-sb-admin-2-gh-pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="19" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6699">
           <caret line="319" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
           <folding />
         </state>
@@ -654,8 +764,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/templates/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="65" column="16" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="65" selection-end-column="16" />
+=======
+        <state relative-caret-position="294">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> ed0136a517ca7c9815ee23291e0aa612f09b47f2
           <folding />
         </state>
       </provider>
