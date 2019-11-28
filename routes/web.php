@@ -19,10 +19,19 @@ Route::prefix('admin')->group(function () {
     Route::get('dashboard', function () {
         return view('admin.dashboard');
     })->name('dashboard');
+
+    Route::resource('assistentes-comunitarios', 'AssistenteComunitarioController');
 });
 
 
 
-Route::get('/edson', function () {
-    return 'Oi Edson, como está?';
-})->name('edson');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+/*
+Route::get('/assistentes', function () {
+    return view('admin.assistente-comunitario.index');
+})->name('assistentes');
+*/
