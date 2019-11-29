@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\AssistenteComunitario;
+use App\Http\Requests\AssistenteComunitarioRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -41,7 +42,7 @@ class AssistenteComunitarioController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function store(Request $request)
+    public function store(AssistenteComunitarioRequest $request)
     {
         AssistenteComunitario::create($request->all());
         return redirect()->route('assistentes-comunitarios.create')->with('message', 'Assistente comunitário registado com sucesso!');
@@ -78,7 +79,7 @@ class AssistenteComunitarioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(AssistenteComunitarioRequest $request, $id)
     {
         $result = AssistenteComunitario::find($id);
         $posts =$request->all();

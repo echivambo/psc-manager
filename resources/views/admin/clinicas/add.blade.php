@@ -78,7 +78,7 @@
 
                 <div class="col-md-6">
                   <input id="contacto" type="number" class="form-control @error('contacto') is-invalid @enderror" name="contacto"
-                         autocomplete="contacto" maxlength="9" max="879999999" value="{{ isset($result->contacto) ? $result->contacto : old('contacto')}}">
+                         autocomplete="contacto" maxlength="9" value="{{ isset($result->contacto) ? $result->contacto : old('contacto')}}">
 
                   @error('contacto')
                   <span class="invalid-feedback" role="alert">
